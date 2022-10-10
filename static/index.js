@@ -49,6 +49,6 @@
 jQuery.ajax({
     dataType: "json", // Setting return data type
     method: "GET", // Setting request method
-    url: "localhost:8080/api/stars", // Setting request url, which is mapped by StarsServlet in Stars.java
+    url: "localhost:9000/api/stars", // Setting request url, which is mapped by StarsServlet in Stars.java
     success: (resultData) => handleStarResult(resultData) // Setting callback function to handle data returned successfully by the StarsServlet
 });
